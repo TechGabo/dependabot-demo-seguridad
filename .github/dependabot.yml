@@ -1,15 +1,7 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
+
 updates:
   - package-ecosystem: "npm"
-    directory: "/" # Directorio donde se encuentra el archivo package.json
+    directory: "/"
     schedule:
-      interval: "weekly" # Frecuencia con la que se realizan las actualizaciones (daily, weekly, monthly)
-    commit-message:
-      prefix: "fix" # Prefijo del mensaje de commit
-    pull-request-branch-name:
-      separator: "-" # Separador para los nombres de las ramas de PR
+      interval: "daily"
