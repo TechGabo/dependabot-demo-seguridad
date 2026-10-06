@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/TechGabo/dependabot-demo-seguridad#readme",
   "dependencies": {
-    "lodash": "4.17.20"
+    "lodash": "4.18.1"
   }
 }
